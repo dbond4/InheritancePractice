@@ -8,6 +8,6 @@ package myconcrete;
  *
  * @author F03 H4MM3R
  */
-public class SalariedEmployee {
+public class SalariedEmployee extends Employee{
     
 }
