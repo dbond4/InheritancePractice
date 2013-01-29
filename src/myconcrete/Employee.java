@@ -14,8 +14,18 @@ public class Employee {
     private String position;
     private int hireDate;
     private int age;
+    
     public void fireEmployee(){
         System.out.println("YOUR FIRED!!");
+    }
+    public void hireEmployee(){
+        System.out.println("Your hired, gab a seat.");
+    }
+    public void getCoffee(){
+        System.out.println("Get me a coffee, cream, no sugar.");
+    }
+    public void takeMemo(){
+        System.out.println("Write this down.");
     }
     /**
      * @return the name
