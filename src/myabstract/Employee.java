@@ -8,7 +8,7 @@ package myabstract;
  *
  * @author F03 H4MM3R
  */
-public class Employee {
+public abstract class Employee {
     
     private String name;
     private String position;
@@ -27,6 +27,7 @@ public class Employee {
     public void takeMemo(){
         System.out.println("Write this down.");
     }
+    abstract public void getPromoted();
     /**
      * @return the name
      */

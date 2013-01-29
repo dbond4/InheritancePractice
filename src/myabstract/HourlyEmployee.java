@@ -14,6 +14,9 @@ public class HourlyEmployee extends Employee{
     public void payEmployee(){
         System.out.println("Dollar Dollar Bill YO!");
     }
+    public void getPromoted(){
+        System.out.println("GOOD JOB, you're promoted!");
+    }
 
     /**
      * @return the hourlyPay

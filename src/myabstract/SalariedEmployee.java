@@ -26,6 +26,9 @@ public class SalariedEmployee extends Employee{
     public void takeBreak(){
         System.out.println("How bout them Packers...");
     }
+    public void getPromoted(){
+        System.out.println("GOOD JOB, you're promoted!");
+    }
 
     /**
      * @return the salaryPay
