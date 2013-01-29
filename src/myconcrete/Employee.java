@@ -10,4 +10,22 @@ package myconcrete;
  */
 public class Employee {
     
+    private String name;
+    public void fireEmployee(){
+        System.out.println("YOUR FIRED!!");
+    }
+    /**
+     * @return the name
+     */
+    public String getName() {
+        return name;
+    }
+
+    /**
+     * @param name the name to set
+     */
+    public void setName(String name) {
+        this.name = name;
+    }
+    
 }
