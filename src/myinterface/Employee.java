@@ -8,6 +8,11 @@ package myinterface;
  *
  * @author F03 H4MM3R
  */
-public class Employee {
+public interface Employee {
     
+    public void fireEmployee();
+    public void hireEmployee();
+    public void getCoffee();
+    public void takeMemo();
+   
 }
