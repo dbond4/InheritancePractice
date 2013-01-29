@@ -9,6 +9,7 @@ package myconcrete;
  * @author F03 H4MM3R
  */
 public class HourlyEmployee extends Employee{
+    
     private int hourlyPay;
     public void payEmployee(){
         System.out.println("Dollar Dollar Bill YO!");
